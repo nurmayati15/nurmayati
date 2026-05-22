@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>portofolio saya</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: grey;
+        }
+
+        .header {
+            background: rgb(240, 168, 196);
+            color:rgb(236, 236, 230);
+            padding: 15px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            padding: 20px;
+        }
+
+        .card {
+    background-color: #f1b3c5;
+    color: rgb(53, 51, 52);
+    padding: 20px;
+    text-align: center;
+    
+    box-shadow: 0 0 10px rgb(241, 213, 240),
+                0 0 20px rgb(241, 213, 240),
+                0 0 40px rgb(241, 213, 240);
+  border-radius: 20px;
+          
+        }
+
+        .profile {
+            text-align: center;
+        }
+
+        .profile img {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            background: rgb(243, 234, 237);
+            background-image: url('https://static.wikitide.net/loathsomecharacterswiki/f/f6/C--Users-cleme-Downloads-527-5274029_patrick-star-clipart-patrick-star-drooling-png-download.png');
+        }
+
+        .btn {
+            margin-top: 10px;
+        }
+
+        .btn button {
+            padding: 8px 12px;
+            border: none;
+            border-radius: 5px;
+            background: rgb(250, 203, 252);
+            color: white;
+            cursor: pointer;
+            margin: 5px;
+        }
+
+        .progress {
+            background: rgb(252, 135, 184);
+            border-radius: 10px;
+            margin: 10px 0;
+        }
+
+        .progress-bar {
+            height: 10px;
+            background: cyan;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">My Profile</div>
+
+<div class="container">
+
+
+    <div class="card profile">
+        <img src="https://www.shutterstock.com/image-illustration/cute-baby-capybara-sitting-picture-260nw-2654174313.jpg" alt="foto profil">
+        <h3>nurmayati</h3>
+        <p>SMK An Nur</p>
+        <p>Depok</p>
+        <div class="btn">
+            <button>Follow</button>
+            <button>Message</button>
+        </div>
+    </div>
+
+  
+    <div class="card">
+        <h3>Data Diri</h3>
+        <p>Full Name: nurmayati</p>
+        <p>Email: nurma@gmail.com</p>
+        <p>Phone: 088212345678</p>
+        <p>Address: Depok</p>
+    </div>
+
+    
+    <div class="card">
+        <h3>Social Media</h3>
+        <p>Website: nurma.com</p>
+        <p>Instagram: @nrmaayntii__</p>
+    </div>
+
+  
+    <div class="card">
+        <h3>Project</h3>
+
+        <p>HTML</p>
+        <div class="progress">
+            <div class="progress-bar" style="width: 100%;"></div>
+        </div>
+        <p>CSS</p>
+        <div class="progress">
+          <div class="progress-bar" style="width:85%;"></div>
+        </div>
+
+        <p>JavaScript</p>
+        <div class="progress">
+            <div class="progress-bar" style="width: 80%;"></div>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
